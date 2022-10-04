@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCE IIT (ISM) Dhanbad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/gif/png" href="image/logo.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="CSS/mobile.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b9327e5f49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header data-aos="fade-down">
+        <div>
+            <div>
+               <a href="index.html"><img id="head-logo" src="image/logo.jpg" alt=""></a> 
+            </div>
+            <div id="hamburger" class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <div class="mobile-container" id="navbar">
+                    <ul class="myLinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="advisors.html">Advisors</a></li>
+                        <li><a class="current" href="contact.html">Contact us</a></li>
+
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="fixedArea"></div>
+    
+    <div class="main">
+        <section class="ftco-section">
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12">
+                        <div class="wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-md-7 d-flex align-items-stretch">
+                                    <div data-aos="zoom-in-right" class="contact-wrap w-100 p-md-5 p-4">
+                                        <h2 class="mb-4"><b>Let Us Know</b></h2><br>
+                                        <div id="form-message-warning" class="mb-4"></div> 
+				      		            <div id="form-message-success" class="mb-4">
+				                            Your message was sent, thank you!. We will Reach You soon.
+				      		            </div>
+                                        <div class="alert" id="alert">Please fill all the Details!</div>  
+                                          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe> 
+                                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdp6kvvg6LJYRv_NissBpnvbJcIxZCnEdqKqO1uWPiX85rwoA/formResponse" target="hidden_iframe" method="POST" onsubmit="return validateForm();">
+                                            <div class="row">
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="entry.2113620722" id="name" placeholder="Name">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="entry.126304477" id="email-check" placeholder="Email">   
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="entry.1719380915" id="subject" placeholder="Subject">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea name="entry.1963700380" class="form-control" id="message-check" cols="30" rows="7" placeholder="Message"></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="submit" value="Send Message" class="btn btn-primary">
+                                                        <div class="submitting"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div data-aos="zoom-in-left" class="col-md-5 d-flex align-items-stretch">
+                                    <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+                                        <h3 class="mb-4 mt-md-4"><u>Contact us</u></h3><br>
+                                        <div class="dbox w-100 d-flex align-items-start">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-map-marker"></span>
+                                            </div>
+                                            <div class="text pl-3">
+                                                <p><span>Address:</span> Department of Civil Engineering, IIT (ISM) Dhanbad, India - 826004</p>
+                                            </div>
+                                            <div id="map"></div>
+                                        </div>
+                                        <div class="dbox w-100 d-flex align-items-center">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-paper-plane"></span>
+                                            </div>
+                                            <div class="text pl-3">
+                                                <p><span>Email:</span> <a href="mailto:asce@iitism.ac.in">asce@iitism.ac.in</a></p>
+                                            </div><br>
+                                        </div>
+                                        <div class="dbox  ">
+                                            <a href="https://www.facebook.com/asce.iitism/" target="_blank"><div class="icon d-flex align-items-center justify-content-center social-handles">
+                                                <span class="fa fa-facebook"></span>
+                                            </div></a>
+                                            <a href="https://www.linkedin.com/company/asce-student-chapter-iit-ism-dhanbad" target="_blank"><div class="icon d-flex align-items-center justify-content-center  social-handles">
+                                                <span class="fa fa-linkedin"></span>
+                                            </div></a>
+                                            <a href="https://twitter.com/ASCE_ISM" target="_blank"><div class="icon d-flex align-items-center justify-content-center social-handles">
+                                                <span class="fa fa-twitter"></span>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <div id="footer">
+        <div id="footer-top">
+            <div id="bottomLogos" class="centered">
+                    <img id="asceLogo" src="image/logo.jpg" alt="">
+                    <p>ASCE Student Chapter <br> IIT (ISM) Dhanbad</p>
+            </div>
+            
+            <div id="location" class="centered">
+                <img id="ismLogo" src="image/ism-logo.png" alt="">
+                <h3>Location</h3>
+                <p>Department of Civil Engineering, IIT (ISM) Dhanbad, India - 826004</p>
+            </div>
+            <div id="otherLinks" class="centered">
+                <h3>Other Links</h3>
+                <ul>
+                    <li><a href="https://www.asce.org/" target="_blank">ASCE international</a></li>
+                    <li><a href="">Department Website</a></li>
+                    <li><a href="https://iitism.ac.in/" target="_blank">IIT (ISM) Dhanbad Official Website</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer-bottom">
+            <div id="copyright" class="centered">
+                <p>Copyright &copy; 2021 All rights reserved | ASCE IIT (ISM) Dhanbad Student Chapter</p>
+            </div>
+            <div id="social-media"class="centered">
+                <p>Follow us on</p>
+                <div id="social-media-icons">
+                    <a href="https://www.facebook.com/asce.iitism/" target="_blank"><i class="fab fa-facebook-f"></i></a></i>
+                    <a href="https://twitter.com/ASCE_ISM" target="_blanl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/asce-student-chapter-iit-ism-dhanbad" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/validation.js"></script>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+            if(!menuOpen) {
+
+                menuBtn.classList.add('open');
+                menuOpen = true;
+                document.getElementById("navbar").style.height="300px";
+            } else {
+                menuBtn.classList.remove('open');
+                menuOpen = false;
+                document.getElementById("navbar").style.height="0px";
+                
+            }
+        });
+    </script>
+    
+</body>
+</html>
